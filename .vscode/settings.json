@@ -1,0 +1,14 @@
+{
+    "files.associations": {
+        "wait.h": "c",
+        "stdlib.h": "c",
+        "stdio.h": "c",
+        "unistd.h": "c",
+        "prog1": "c",
+        "math.h": "c",
+        "string.h": "c",
+        "array": "cpp",
+        "string_view": "cpp",
+        "initializer_list": "cpp"
+    }
+}
