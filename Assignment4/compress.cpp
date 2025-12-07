@@ -83,15 +83,15 @@ struct tagBITMAPINFOHEADER
 };
 
 struct HuffmanEntry {
-    BYTE value;      // The color value
-    BYTE bitLength;  // Number of bits in the code
-    DWORD code;      // The Huffman code packed into integer
+    BYTE value;
+    BYTE bitLength;
+    DWORD code;
 };
 
 struct HuffmanTable
 {
-    int numEntries;               // # of entries
-    HuffmanEntry entries[256];    // Max 256 values
+    int numEntries;
+    HuffmanEntry entries[256];
 };
 
 void add_huff(hte *huff[], BYTE c){
